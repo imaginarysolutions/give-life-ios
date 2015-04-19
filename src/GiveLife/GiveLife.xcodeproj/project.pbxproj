@@ -20,6 +20,8 @@
 		81815DCE1AE3B7A60060FBF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DCD1AE3B7A60060FBF1 /* AudioToolbox.framework */; };
 		81815DD01AE3B7EE0060FBF1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DCF1AE3B7EE0060FBF1 /* Parse.framework */; };
 		81815DD21AE3B82E0060FBF1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DD11AE3B82E0060FBF1 /* Bolts.framework */; };
+		81815DD51AE3BAC10060FBF1 /* Parse-Template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81815DD41AE3BAC10060FBF1 /* Parse-Template.plist */; };
+		81815DD71AE3BB0D0060FBF1 /* Parse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81815DD61AE3BB0D0060FBF1 /* Parse.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		81815DCD1AE3B7A60060FBF1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		81815DCF1AE3B7EE0060FBF1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Frameworks/Parse.framework; sourceTree = "<group>"; };
 		81815DD11AE3B82E0060FBF1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		81815DD41AE3BAC10060FBF1 /* Parse-Template.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Parse-Template.plist"; sourceTree = "<group>"; };
+		81815DD61AE3BB0D0060FBF1 /* Parse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Parse.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				81815DA01AE3B6F70060FBF1 /* Info.plist */,
+				81815DD41AE3BAC10060FBF1 /* Parse-Template.plist */,
+				81815DD61AE3BB0D0060FBF1 /* Parse.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,7 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81815DA71AE3B6F70060FBF1 /* Main.storyboard in Resources */,
+				81815DD71AE3BB0D0060FBF1 /* Parse.plist in Resources */,
 				81815DAC1AE3B6F70060FBF1 /* LaunchScreen.xib in Resources */,
+				81815DD51AE3BAC10060FBF1 /* Parse-Template.plist in Resources */,
 				81815DA91AE3B6F70060FBF1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
