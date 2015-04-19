@@ -13,6 +13,13 @@
 		81815DA91AE3B6F70060FBF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81815DA81AE3B6F70060FBF1 /* Images.xcassets */; };
 		81815DAC1AE3B6F70060FBF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81815DAA1AE3B6F70060FBF1 /* LaunchScreen.xib */; };
 		81815DB81AE3B6F70060FBF1 /* GiveLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81815DB71AE3B6F70060FBF1 /* GiveLifeTests.swift */; };
+		81815DC81AE3B7690060FBF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DC71AE3B7690060FBF1 /* SystemConfiguration.framework */; };
+		81815DC91AE3B7700060FBF1 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DC21AE3B73A0060FBF1 /* libstdc++.6.dylib */; };
+		81815DCA1AE3B7750060FBF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DC41AE3B7420060FBF1 /* MobileCoreServices.framework */; };
+		81815DCC1AE3B7800060FBF1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DCB1AE3B7800060FBF1 /* libsqlite3.dylib */; };
+		81815DCE1AE3B7A60060FBF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DCD1AE3B7A60060FBF1 /* AudioToolbox.framework */; };
+		81815DD01AE3B7EE0060FBF1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DCF1AE3B7EE0060FBF1 /* Parse.framework */; };
+		81815DD21AE3B82E0060FBF1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DD11AE3B82E0060FBF1 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		81815DB11AE3B6F70060FBF1 /* GiveLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81815DB61AE3B6F70060FBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81815DB71AE3B6F70060FBF1 /* GiveLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveLifeTests.swift; sourceTree = "<group>"; };
+		81815DC21AE3B73A0060FBF1 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		81815DC41AE3B7420060FBF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		81815DC71AE3B7690060FBF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81815DCB1AE3B7800060FBF1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		81815DCD1AE3B7A60060FBF1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81815DCF1AE3B7EE0060FBF1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Frameworks/Parse.framework; sourceTree = "<group>"; };
+		81815DD11AE3B82E0060FBF1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81815DCE1AE3B7A60060FBF1 /* AudioToolbox.framework in Frameworks */,
+				81815DCC1AE3B7800060FBF1 /* libsqlite3.dylib in Frameworks */,
+				81815DCA1AE3B7750060FBF1 /* MobileCoreServices.framework in Frameworks */,
+				81815DC91AE3B7700060FBF1 /* libstdc++.6.dylib in Frameworks */,
+				81815DD01AE3B7EE0060FBF1 /* Parse.framework in Frameworks */,
+				81815DC81AE3B7690060FBF1 /* SystemConfiguration.framework in Frameworks */,
+				81815DD21AE3B82E0060FBF1 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			children = (
 				81815D9E1AE3B6F70060FBF1 /* GiveLife */,
 				81815DB41AE3B6F70060FBF1 /* GiveLifeTests */,
+				81815DC61AE3B7450060FBF1 /* Frameworks */,
 				81815D9D1AE3B6F70060FBF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,6 +132,28 @@
 				81815DB61AE3B6F70060FBF1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81815DC61AE3B7450060FBF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81815DD11AE3B82E0060FBF1 /* Bolts.framework */,
+				81815DCF1AE3B7EE0060FBF1 /* Parse.framework */,
+				81815DD31AE3B8AD0060FBF1 /* System Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81815DD31AE3B8AD0060FBF1 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81815DCD1AE3B7A60060FBF1 /* AudioToolbox.framework */,
+				81815DCB1AE3B7800060FBF1 /* libsqlite3.dylib */,
+				81815DC21AE3B73A0060FBF1 /* libstdc++.6.dylib */,
+				81815DC41AE3B7420060FBF1 /* MobileCoreServices.framework */,
+				81815DC71AE3B7690060FBF1 /* SystemConfiguration.framework */,
+			);
+			name = "System Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +386,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = GiveLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = GiveLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
