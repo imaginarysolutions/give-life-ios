@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		81815DA21AE3B6F70060FBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81815DA11AE3B6F70060FBF1 /* AppDelegate.swift */; };
-		81815DA41AE3B6F70060FBF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81815DA31AE3B6F70060FBF1 /* ViewController.swift */; };
 		81815DA71AE3B6F70060FBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81815DA51AE3B6F70060FBF1 /* Main.storyboard */; };
 		81815DA91AE3B6F70060FBF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81815DA81AE3B6F70060FBF1 /* Images.xcassets */; };
 		81815DAC1AE3B6F70060FBF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81815DAA1AE3B6F70060FBF1 /* LaunchScreen.xib */; };
@@ -22,6 +21,8 @@
 		81815DD21AE3B82E0060FBF1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81815DD11AE3B82E0060FBF1 /* Bolts.framework */; };
 		81815DD51AE3BAC10060FBF1 /* Parse-Template.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81815DD41AE3BAC10060FBF1 /* Parse-Template.plist */; };
 		81815DD71AE3BB0D0060FBF1 /* Parse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81815DD61AE3BB0D0060FBF1 /* Parse.plist */; };
+		81815DDB1AE3BD3B0060FBF1 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81815DDA1AE3BD3B0060FBF1 /* Measure.swift */; };
+		81815DE01AE3C0690060FBF1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81815DDF1AE3C0690060FBF1 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		81815D9C1AE3B6F70060FBF1 /* GiveLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81815DA01AE3B6F70060FBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81815DA11AE3B6F70060FBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81815DA31AE3B6F70060FBF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81815DA61AE3B6F70060FBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81815DA81AE3B6F70060FBF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81815DAB1AE3B6F70060FBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -54,6 +54,9 @@
 		81815DD11AE3B82E0060FBF1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
 		81815DD41AE3BAC10060FBF1 /* Parse-Template.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Parse-Template.plist"; sourceTree = "<group>"; };
 		81815DD61AE3BB0D0060FBF1 /* Parse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Parse.plist; sourceTree = "<group>"; };
+		81815DDA1AE3BD3B0060FBF1 /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Measure.swift; path = Objects/Measure.swift; sourceTree = "<group>"; };
+		81815DDD1AE3BF4E0060FBF1 /* GiveLife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiveLife-Bridging-Header.h"; sourceTree = "<group>"; };
+		81815DDF1AE3C0690060FBF1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = UI/TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +106,12 @@
 		81815D9E1AE3B6F70060FBF1 /* GiveLife */ = {
 			isa = PBXGroup;
 			children = (
+				81815DD91AE3BD190060FBF1 /* Objects */,
+				81815DDE1AE3C0410060FBF1 /* UI */,
 				81815DA11AE3B6F70060FBF1 /* AppDelegate.swift */,
-				81815DA31AE3B6F70060FBF1 /* ViewController.swift */,
-				81815DA51AE3B6F70060FBF1 /* Main.storyboard */,
 				81815DA81AE3B6F70060FBF1 /* Images.xcassets */,
 				81815DAA1AE3B6F70060FBF1 /* LaunchScreen.xib */,
+				81815DA51AE3B6F70060FBF1 /* Main.storyboard */,
 				81815D9F1AE3B6F70060FBF1 /* Supporting Files */,
 			);
 			path = GiveLife;
@@ -119,6 +123,7 @@
 				81815DA01AE3B6F70060FBF1 /* Info.plist */,
 				81815DD41AE3BAC10060FBF1 /* Parse-Template.plist */,
 				81815DD61AE3BB0D0060FBF1 /* Parse.plist */,
+				81815DDD1AE3BF4E0060FBF1 /* GiveLife-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,6 +165,22 @@
 				81815DC71AE3B7690060FBF1 /* SystemConfiguration.framework */,
 			);
 			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+		81815DD91AE3BD190060FBF1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				81815DDA1AE3BD3B0060FBF1 /* Measure.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		81815DDE1AE3C0410060FBF1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				81815DDF1AE3C0690060FBF1 /* TableViewController.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81815DA41AE3B6F70060FBF1 /* ViewController.swift in Sources */,
 				81815DA21AE3B6F70060FBF1 /* AppDelegate.swift in Sources */,
+				81815DE01AE3C0690060FBF1 /* TableViewController.swift in Sources */,
+				81815DDB1AE3BD3B0060FBF1 /* Measure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +423,7 @@
 				INFOPLIST_FILE = GiveLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiveLife/GiveLife-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -415,6 +438,7 @@
 				INFOPLIST_FILE = GiveLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiveLife/GiveLife-Bridging-Header.h";
 			};
 			name = Release;
 		};
